@@ -1,0 +1,231 @@
+
+
+/* навигационная панель */
+  .nav {
+    
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    max-width: 100%;
+    box-shadow: inset 0 0 6px;
+  }
+  
+  .nav-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    
+  }
+  
+  .nav-logo {
+    padding: 13px 0;
+  }
+  
+  .nav-cabinet {
+    display: flex;  
+  }
+  
+  .nav-element {
+    margin: auto 0.9rem;
+  }
+  
+  .nav-button {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  /* поиск */
+  .search {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+  }
+  
+  .search-input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(173, 173, 173);
+  }
+
+  /* Рестораны в Москве */
+  .stores-cards {
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    margin-bottom: 50px;
+  }
+  
+  .stores-header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .stores-card {  
+    text-decoration: none;
+    color: black;
+  }
+  
+  .stores-card:hover {
+    background-color: lightgray;
+  }
+  
+  .stores-card-pic {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .stores-card-pic img {
+    transition: 0.3s;
+    width: 100%;
+  }
+  
+  .stores-card-pic img:hover {
+    transform: scale(1.03);
+  }
+  
+  .store-name {
+    margin-top: 0.9rem;
+  }
+  
+  .store-type {
+    color: darkgray;
+    font-size: 0.875rem;
+  }
+  
+  .store-time {
+    font-size: 0.8125rem;
+  }
+  
+  .store-name,
+  .store-time,
+  .store-type {
+    margin-bottom: 0.35rem;
+  }
+
+  .transition-fix {
+      width: 30%;
+      height: 30%;
+  }
+
+  /* Нижняя часть */
+
+  .footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #262626;
+    max-width: 100%;
+    height: 100%;
+  }
+  
+  .footer-logo {
+    padding: 40px 0;
+  }
+  
+  hr {
+    display: block;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    border-top: 1px solid darkgray;
+  }
+  
+  .footer-links {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px;
+    flex-flow: row;
+  }
+  
+  .footer-links-column {
+    flex-basis: 33.3333%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  
+  .footer-link {
+    padding: 8px 0;
+    /* color: rgb(238, 4, 4); */
+    font-size: 0.8125rem;
+  }
+  
+  .footer-legal {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+  }
+  
+  .lang-selector {
+    border-radius: 1px;
+    border-color: rgb(121, 121, 121);
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    padding: 10px 70px 10px 50px;
+    background: #262626;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 12rem;
+  }
+  
+  .lang-selector:focus {
+    outline: none;
+  }
+  
+  .lang-selector-container {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 24px;
+    margin-left: -16px;
+  }
+  
+  .lang-selector-container > img {
+    position: relative;
+    left: 30px;
+  }
+  
+  .hashtag {
+    display: inline-block;
+    font-size: medium;
+  }
+  
+  .hashtag::before {
+    content: '#';
+    color: green;
+  }
+  
+  .socials-symbols {
+    display: flex;
+    gap: 10px;
+    padding-top: 6px;
+    padding-bottom: 13px;
+
+  }
+  
+  .footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: gray;
+  }
+  
+  .footer a:active {
+    color: gray;
+  }
+  
+  .footer-dw-labels {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0;
+  }
+
+ 
